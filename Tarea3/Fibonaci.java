@@ -1,8 +1,8 @@
-public class Fibo {
+import java.util.*;
 
-	public static void main(String[] args)
-	{
-		int val1=0, val2=1, contador=0;
+public class Fibonaci {
+    public static void main(String[] args) throws Exception {
+        	int val1=0, val2=1, contador=0;
 		System.out.println(val1);
 		System.out.println(val2+"\n"+ "----------------"+"\n");
 
@@ -16,5 +16,5 @@ public class Fibo {
 			contador++;
 		}
 
-	}
+    }
 }
